@@ -1,9 +1,6 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import { section } from 'framer-motion/client';
-
 const services = [
   { img: 'src/assets/slide1.png', title: 'Growth' },
   { img: 'src/assets/slide2.png', title: 'Research' },

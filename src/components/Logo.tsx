@@ -1,6 +1,3 @@
-import React from "react";
-import { Button } from "./Button";
-
 const Logo = () => {
   return (
     <section className="flex flex-col items-center justify-center text-center mx-auto bg-gradient-to-bl from-blue-100 to-violet-50 p-8">

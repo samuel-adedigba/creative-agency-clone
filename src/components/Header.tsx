@@ -1,3 +1,4 @@
+ 
 import React, { useState, useEffect } from "react";
 import { Menu, X, ChevronDown, Phone, Search } from "lucide-react";
 import { Button } from "./Button";
@@ -12,7 +13,7 @@ interface MenuItem {
 
 export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
