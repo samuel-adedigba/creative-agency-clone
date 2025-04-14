@@ -21,13 +21,13 @@ const CreativeAgency = () => {
         <div className="relative w-full max-w-lg ml-auto">
           <div className="relative">
             <img
-              src="src/assets/ag1.webp"
+              src="/ag1.webp"
               alt="Team"
              // className="w-[200px] h-[260px] rounded-xl object-cover shadow-lg z-10 relative lg:translate-x-16"
               className="rounded-md shadow-lg w-full"
             />
             <img
-              src="src/assets/ag2.webp"
+              src="/ag2.webp"
               alt="Working"
              // className="w-[320px] h-[300px] rounded-xl object-cover shadow-2xl absolute top-20 left-20 hidden lg:block"
               className="rounded-md shadow-lg w-full absolute top-1/2 right-1/4"

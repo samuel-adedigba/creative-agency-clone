@@ -2,12 +2,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 const services = [
-  { img: 'src/assets/slide1.png', title: 'Growth' },
-  { img: 'src/assets/slide2.png', title: 'Research' },
-  { img: 'src/assets/slide3.png', title: 'Design' },
-  { img: 'src/assets/slide4.png', title: 'Strategy' },
-  { img: 'src/assets/slide1.png', title: 'Growth' },
-  { img: 'src/assets/slide2.png', title: 'Research' },
+  { img: '/slide1.png', title: 'Growth' },
+  { img: '/slide2.png', title: 'Research' },
+  { img: '/slide3.png', title: 'Design' },
+  { img: '/slide4.png', title: 'Strategy' },
+  { img: '/slide1.png', title: 'Growth' },
+  { img: '/slide2.png', title: 'Research' },
 
 ];
 

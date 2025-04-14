@@ -7,27 +7,27 @@ const Logo = () => {
       {/* Partner Logos */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mt-12 w-full max-w-6xl px-4">
         <img
-          src="src/assets/partner-1.webp"
+          src="/partner-1.webp"
           alt="Logo 1"
           className="h-auto w-full object-contain"
         />
         <img
-          src="src/assets/partner-2.webp"
+          src="/partner-2.webp"
           alt="Logo 2"
           className="h-auto w-full object-contain"
         />
         <img
-          src="src/assets/partner-3.webp"
+          src="/partner-3.webp"
           alt="Logo 3"
           className="h-auto w-full object-contain"
         />
         <img
-          src="src/assets/partner-4.webp"
+          src="/partner-4.webp"
           alt="Logo 4"
           className="h-auto w-full object-contain"
         />
         <img
-          src="src/assets/partner-5.webp"
+          src="/partner-5.webp"
           alt="Logo 5"
           className="h-auto w-full object-contain"
         />

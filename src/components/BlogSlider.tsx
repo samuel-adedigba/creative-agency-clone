@@ -7,25 +7,25 @@ import 'swiper/css/pagination';
 const blogPosts = [
   {
     title: "Top 5 targeting techniques to attract customers",
-    image: "src/assets/blog1.jpg",
+    image: "/blog1.jpg",
     date: "Apr 21, 2020",
     category: "Media SEO",
   },
   {
     title: "Why do project managers need to focus on strategy?",
-    image: "src/assets/blog2.jpg",
+    image: "/blog2.jpg",
     date: "Apr 21, 2020",
     category: "Media SEO",
   },
   {
     title: "What’s trending in charts this year?",
-    image: "src/assets/blog3.jpg",
+    image: "/blog3.jpg",
     date: "Apr 21, 2020",
     category: "Media SEO",
   },
   {
     title: "Top design ideas for your business",
-    image: "src/assets/blog4.jpg",
+    image: "/blog4.jpg",
     date: "Apr 21, 2020",
     category: "Design",
   },
