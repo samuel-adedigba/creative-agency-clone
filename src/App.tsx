@@ -1,6 +1,5 @@
 import React from 'react';
 import { Header } from './components/Header';
-// import { Services } from './components/Services';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
 import BlogSlider from './components/BlogSlider';

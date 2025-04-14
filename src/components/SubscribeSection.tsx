@@ -5,13 +5,12 @@ const SubscribeSection = () => {
   return (
     <section className="w-full bg-gradient-to-b from-white to-[#f4f8ff] px-6 lg:px-16 py-20">
       <div className="max-w-7xl  mx-auto flex flex-col lg:flex-row items-center justify-between gap-6">
-        {/* Heading */}
+
         <h2 className="text-3xl sm:text-6xl font-extrabold text-[#0a043c] text-center lg:text-left">
           Subscribe for the <br className="hidden sm:block" />
           exclusive updates!
         </h2>
 
-        {/* Form */}
         <form className="w-full max-w-2xl flex flex-col items-start gap-3">
           {/* Input Row */}
           <div className="w-full flex items-center gap-3">
@@ -30,7 +29,7 @@ const SubscribeSection = () => {
             </button>
           </div>
 
-          {/* Checkbox Row */}
+
           <label className="flex items-center gap-2 text-lg text-gray-600 pl-2">
             <input type="checkbox" required className="accent-[#5000ff]" />
             I agree to the <a href="#" className="underline text-[#0a043c]">Privacy Policy</a>.
