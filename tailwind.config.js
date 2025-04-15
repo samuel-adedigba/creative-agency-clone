@@ -19,9 +19,18 @@ export default {
           sm: '640px',
           md: '768px',
           lg: '1024px',
-          xl: '1900px',
-        },
+          xl: '1280px',
+          '2xl': '1536px',
+          '3xl': '1900px',
+        }        
       },
+      boxShadow: {
+        'xl-custom': '0 20px 30px rgba(0, 0, 0, 0.1)',
+      },
+      zIndex: {
+        60: '60',
+        70: '70',
+      },      
       animation: {
         'slide-up': 'slideUp 0.5s ease-out',
         'slide-down': 'slideDown 0.5s ease-out',
@@ -43,5 +52,9 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
+  ],  
 };

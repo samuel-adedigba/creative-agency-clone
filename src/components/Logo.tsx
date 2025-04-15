@@ -5,7 +5,7 @@ const Logo = () => {
       
 
       {/* Partner Logos */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mt-12 w-full max-w-6xl px-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4  w-full max-w-7xl px-4">
         <img
           src="/partner-1.webp"
           alt="Logo 1"

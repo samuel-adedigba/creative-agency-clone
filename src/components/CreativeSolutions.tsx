@@ -18,12 +18,12 @@ const CreativeSolutions = () => {
       {/* Heading Row */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-16 text-2xl  mx-auto">
         <div>
-          <p className="uppercase text-base font-bold tracking-wider text-gray-500 mb-3">Creative Solutions</p>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-[#0a043c] leading-tight relative inline-block">
+          <p className="uppercase text-base font-bold tracking-wider text-gray-500 mb-2">Creative Solutions</p>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#0a043c] leading-tight relative inline-block">
             We make unique &<br /> memorable brands
           </h2>
         </div>
-        <div className="text-gray-600 space-y-6 max-w-3xl text-2xl">
+        <div className="text-gray-600 space-y-6 max-w-3xl text-lg md:text-xl">
           <p>
             At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque lorem in voluptate velit iusto odio dignissimos duci esse.
           </p>

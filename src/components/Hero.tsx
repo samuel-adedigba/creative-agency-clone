@@ -33,7 +33,7 @@ export const Hero: React.FC = () => {
             <Button 
               variant="primary" 
               size="lg"
-              className="bg-[#42BFDD] hover:bg-[#4F46E5] text-white px-10 py-6 text-2xl"
+              className="bg-[#42BFDD] hover:bg-[#4F46E5] text-white px-10 lg:py-6 py-4 lg:text-2xl text-lg"
             >
               Discover Now
             </Button>

@@ -8,10 +8,12 @@ import { Testimonials } from './components/Testimony';
 import CreativeAgency from './components/CreativeAgency';
 import CreativeSolutions from './components/CreativeSolutions';
 import SubscribeSection from './components/SubscribeSection';
+import { Cursor } from './components/Cursor';
 
 function App() {
   return (
     <div className="min-h-screen">
+      <Cursor />
       <Header />
       <main>
          <Hero /> 
